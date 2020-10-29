@@ -30,5 +30,7 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: artifact
-        path: result.tgz
+        path: |
+          result.tgz
+          README.md
         retention-days: 7
